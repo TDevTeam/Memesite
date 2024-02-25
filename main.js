@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", function() {
     const body = document.body;
-    const images = ["images/sanic-.jpg","images/huh_cat.jpg","images/img102.jpg"];
+    const images = ["images/sanic-.jpg","images/huh_cat.jpg","images/nahh.jpg"];
 
     let index = 0;
 
