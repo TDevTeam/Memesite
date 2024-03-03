@@ -93,3 +93,27 @@ a {
     opacity: 1;
     transition: opacity 1s ease-in-out;
 }
+
+.login {
+    margin-top: 5px;
+    margin-left: 20px;
+    margin-right: 30px;
+    background: #dddddd;
+    font-family: 'Trebuchet MS';
+    font-weight: bold;
+    color: black;
+    border-radius: 1em;
+    width: 80px;
+    border: 0px;
+    height: 30px;
+    cursor: pointer;
+}
+
+.login:hover{
+    background-color:indigo;
+    color:white;
+}
+
+.username-class {
+    cursor:default;
+}

@@ -18,3 +18,7 @@ function changeImage() {
 }
 
 setInterval(changeImage, 5000);
+
+function login_in(){
+    moveTo("login.php")
+}

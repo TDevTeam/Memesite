@@ -15,10 +15,18 @@
                   </div>
                   <nav class="nav-flex">
                     <ul>
+                      <?php 
+                            if(isset($_GET["username"])) {
+                              echo '<li class="username-class">Hello, {$_GET["username"]}</li>';
+                          } else {
+                              echo '<li class="username-class">Welcome, Guest</li>';
+                          }
+                      ?>
                       <li><a href="index.html">Home</a></li>
                       <li><a href="trendy.html">Trendy</a></li>
                       <li><a href="sus.html">Sus</a></li>
                       <li><a href="among-us.html">Among us</a></li>
+                      <a href="login.php"><button class="login" type="button">Login</button></a>
                     </ul>
                   </nav>
                 </div>
