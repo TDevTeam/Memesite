@@ -31,10 +31,26 @@
     <img class="hero-image" src="/images/nyan-cat.jpg" alt="nyan-cat">
 </header>
 <main>
-    <h1 class="main-head">Reddit Memes</h1>
+    <div class="centered-button">
+        <button class="more-button" id="refresh-button">Refresh Memes</button>
+    </div>
     <div class="meme-contain">
         <div id="memes-container"></div>
     </div>
+    <div class="centered-button">
+        <button class="more-button2" id="scrollToTopButton">Scroll To Top ⬆️</button>
+    </div>
+
+    <script>
+        var scrollToTopButton = document.getElementById("scrollToTopButton");
+
+        scrollToTopButton.addEventListener("click", function() {
+            window.scrollTo({
+                top: 0,
+                behavior: "smooth"
+            });
+        });
+    </script>
 
     <script>
         function fetchMemes() {
@@ -70,6 +86,10 @@
         }
 
         window.onload = fetchMemes;
+
+        document
+            .getElementById("refresh-button")
+            .addEventListener("click", fetchMemes);
     </script>
     <img id="bruh-image" src="/images/smudge.png" alt="smudge-cat">
 </main>

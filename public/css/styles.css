@@ -86,6 +86,40 @@ body {
     width: 400px;
 }
 
+.centered-button{
+    display: flex;
+    justify-items: center;
+    justify-content: center;
+}
+
+.more-button {
+    color: black;
+    border-radius: 30px;
+    border: none;
+    width: 200px;
+    height: 35px;
+    font-weight: bold;
+    font-size: 15px;
+    font-family: 'Trebuchet MS', serif;
+    background-color: yellow;
+    margin-bottom: 0;
+    margin-top: 20px;
+}
+
+.more-button2{
+    color: black;
+    border-radius: 30px;
+    border: none;
+    width: 200px;
+    height: 35px;
+    font-weight: bold;
+    font-size: 15px;
+    font-family: 'Trebuchet MS', serif;
+    background-color: yellow;
+    margin-bottom: 20px;
+    margin-top: 0;
+}
+
 .main-head{
     text-align: center;
     font-family: 'Trebuchet MS', serif;
